@@ -1,0 +1,132 @@
+/* ForgetPass.css */
+
+/* Container styles */
+.auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+  }
+  
+  /* Content styles */
+  .content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Logo styles */
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Form styles */
+  .auth-form {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Input styles */
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  /* Button styles */
+  .auth-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Message styles */
+  .success-message {
+    color: #4caf50;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: #f44336;
+    margin-top: 10px;
+  }
+  
+  /* Back to Login link styles */
+  .back-to-login {
+    margin-top: 10px;
+  }
+  
+  .back-to-login a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .back-to-login a:hover {
+    text-decoration: underline;
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .content {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  input[type="email"] {
+    font-size: 14px;
+  }
+
+  .auth-button {
+    font-size: 14px;
+  }
+}

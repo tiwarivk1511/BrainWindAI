@@ -1,0 +1,50 @@
+/* SideNavigationMenu.css */
+
+.side-navigation-menu {
+    position: fixed;
+    top: 0;
+    left:0px; /* Initially hidden off-screen */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Add a shadow on the right side */
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .side-navigation-menu.open {
+    left: 0; /* Slide in from the left when open */
+  }
+  
+  .toggle-button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .toggle-button:hover {
+    background-color: #444; /* Darken the button on hover */
+  }
+  
+  .menu {
+    padding: 20px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .menu ul li:hover {
+    color: #ff9900; /* Change text color on hover */
+  }
+  
+  
